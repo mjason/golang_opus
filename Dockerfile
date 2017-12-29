@@ -9,5 +9,3 @@ RUN unzip protoc-3.5.1-linux-x86_64.zip -d /protoc
 #GFW
 RUN go get -u google.golang.org/grpc
 RUN go get -u github.com/stretchr/testify/assert github.com/gorilla/mux  github.com/golang/protobuf/protoc-gen-go
-
-RUN protoc-3.5.1-linux-x86_64.zip
